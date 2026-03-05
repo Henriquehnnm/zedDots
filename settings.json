@@ -1,30 +1,30 @@
 {
   "collaboration_panel": {
-    "button": false,
+    "button": false
   },
   "search": {
-    "button": false,
+    "button": false
   },
   "terminal": {
     "shell": {
-      "program": "fish",
-    },
+      "program": "fish"
+    }
   },
   "ui_font_family": "Fira Sans",
   "auto_indent": true,
   "buffer_font_family": "FiraCode Nerd Font",
   "buffer_font_size": 16,
   "buffer_line_height": {
-    "custom": 1.9,
+    "custom": 1.9
   },
   "multi_cursor_modifier": "cmd_or_ctrl",
   "drag_and_drop_selection": {
-    "enabled": false,
+    "enabled": false
   },
   "git": {
-    "git_gutter": "hide",
+    "git_gutter": "hide"
   },
-  "theme": "One Dark",
+  "theme": "GitHub Dark",
   "icon_theme": "Base Charmed Icons",
   "helix_mode": true,
   "current_line_highlight": "none",
@@ -43,8 +43,109 @@
       "tab.inactive_background": "#282c33",
       "background": "#282c33",
       "tab.active_background": "#333943",
-      "editor.document_highlight.bracket_background": "#0000",
+      "editor.document_highlight.bracket_background": "#0000"
     },
+    "Gruvbox Dark": {
+      "border": "#282828",
+      "border.variant": "#282828",
+      "border.focused": "#282828",
+      "title_bar.background": "#282828",
+      "title_bar.inactive_background": "#282828",
+      "status_bar.background": "#282828",
+      "tab_bar.background": "#282828",
+      "panel.background": "#282828",
+      "tab.inactive_background": "#282828",
+      "background": "#282828",
+      "tab.active_background": "#3C3836",
+      "editor.document_highlight.bracket_background": "#0000"
+    },
+    "Monokai Pro (CE)": {
+      "border": "#2d2a2e",
+      "border.variant": "#2d2a2e",
+      "border.focused": "#2d2a2e",
+      "title_bar.background": "#2d2a2e",
+      "title_bar.inactive_background": "#2d2a2e",
+      "status_bar.background": "#2d2a2e",
+      "tab_bar.background": "#2d2a2e",
+      "panel.background": "#2d2a2e",
+      "tab.inactive_background": "#2d2a2e",
+      "background": "#2d2a2e",
+      "tab.active_background": "#403E41",
+      "editor.document_highlight.bracket_background": "#0000",
+      "terminal.background": "#2d2a2e"
+    },
+    "Rosé Pine": {
+      "border": "#191724",
+      "border.variant": "#191724",
+      "border.focused": "#191724",
+      "title_bar.background": "#191724",
+      "title_bar.inactive_background": "#191724",
+      "status_bar.background": "#191724",
+      "tab_bar.background": "#191724",
+      "panel.background": "#191724",
+      "tab.inactive_background": "#191724",
+      "background": "#191724",
+      "tab.active_background": "#26233a",
+      "editor.document_highlight.bracket_background": "#0000"
+    },
+    "Tokyo Night Dark": {
+      "border": "#0a0a0d",
+      "border.variant": "#0a0a0d",
+      "border.focused": "#0a0a0d",
+      "title_bar.background": "#0a0a0d",
+      "title_bar.inactive_background": "#0a0a0d",
+      "status_bar.background": "#0a0a0d",
+      "tab_bar.background": "#0a0a0d",
+      "panel.background": "#0a0a0d",
+      "tab.inactive_background": "#0a0a0d",
+      "background": "#0a0a0d",
+      "tab.active_background": "#16161e",
+      "editor.document_highlight.bracket_background": "#0000"
+    },
+    "Catppuccin Mocha": {
+      "border": "#1e1e2e",
+      "border.variant": "#1e1e2e",
+      "border.focused": "#1e1e2e",
+      "title_bar.background": "#1e1e2e",
+      "title_bar.inactive_background": "#1e1e2e",
+      "status_bar.background": "#1e1e2e",
+      "tab_bar.background": "#1e1e2e",
+      "panel.background": "#1e1e2e",
+      "tab.inactive_background": "#1e1e2e",
+      "background": "#1e1e2e",
+      "tab.active_background": "#313244",
+      "editor.document_highlight.bracket_background": "#0000"
+    },
+    "Ayu Mirage": {
+      "border": "#242835",
+      "border.variant": "#242835",
+      "border.focused": "#242835",
+      "title_bar.background": "#242835",
+      "title_bar.inactive_background": "#242835",
+      "status_bar.background": "#242835",
+      "tab_bar.background": "#242835",
+      "panel.background": "#242835",
+      "tab.inactive_background": "#242835",
+      "background": "#242835",
+      // "tab.active_background": "#333943",
+      "editor.document_highlight.bracket_background": "#0000"
+    },
+    "GitHub Dark": {
+      "border": "#0D1117",
+      "border.variant": "#0D1117",
+      "border.focused": "#0D1117",
+      "title_bar.background": "#0D1117",
+      "title_bar.inactive_background": "#0D1117",
+      "status_bar.background": "#0D1117",
+      "tab_bar.background": "#0D1117",
+      "panel.background": "#0D1117",
+      "tab.inactive_background": "#0D1117",
+      "background": "#0D1117",
+      "terminal.background": "#0D1117",
+      "vim.helix_normal.background": "#2A313C",
+      "tab.active_background": "#1E242A",
+      "editor.document_highlight.bracket_background": "#0000"
+    }
   },
 
   "title_bar": {
@@ -53,26 +154,27 @@
     "show_onboarding_banner": false,
     "show_project_items": false,
     "show_branch_name": false,
-    "show_user_menu": false,
+    "show_user_menu": false
   },
 
   "tab_bar": {
+    "show": false,
     "show_tab_bar_buttons": false,
     "show_nav_history_buttons": false,
-    "show_pinned_tabs_in_separate_row": false,
+    "show_pinned_tabs_in_separate_row": false
   },
 
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
-    "selections_menu": false,
+    "selections_menu": false
   },
 
   "status_bar": {
     "active_encoding_button": "disabled",
     "active_language_button": false,
     "cursor_position_button": false,
-    "line_endings_button": false,
+    "line_endings_button": false
   },
 
   "project_panel": {
@@ -84,23 +186,24 @@
     "git_status": false,
     "sticky_scroll": false,
     "scrollbar": {
-      "show": "never",
+      "show": "never"
     },
     "indent_guides": {
-      "show": "never",
-    },
+      "show": "never"
+    }
   },
 
   "scrollbar": {
-    "show": "never",
+    "show": "never"
   },
 
   "indent_guides": {
-    "enabled": false,
+    "enabled": false
   },
 
   "gutter": {
     "min_line_number_digits": 0,
     "runnables": false,
-  },
+    "line_numbers": false
+  }
 }
